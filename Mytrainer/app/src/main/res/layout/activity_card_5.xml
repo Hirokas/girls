@@ -17,7 +17,7 @@
         android:id="@+id/imageView5" />
 
     <TextView
-        android:text="分"
+        android:text="25分"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/week"
@@ -183,14 +183,34 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:srcCompat="@drawable/title"
+        android:id="@+id/imageView4"
+        android:layout_marginBottom="80dp"
+        android:layout_above="@+id/mon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:srcCompat="@drawable/hanamaru2"
         android:id="@+id/specialstar"
+        android:layout_marginTop="16dp"
         android:layout_below="@+id/sun"
         android:layout_toLeftOf="@+id/firstweek"
-        android:layout_toStartOf="@+id/firstweek"
-        android:layout_marginRight="19dp"
-        android:layout_marginEnd="19dp"
-        android:layout_marginTop="17dp" />
+        android:layout_toStartOf="@+id/firstweek" />
+
+    <TextView
+        android:text="先月の調子で今月も頑張ろう！"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView15"
+        android:textSize="20sp"
+        android:layout_marginBottom="68dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/firstweek"
+        android:layout_alignEnd="@+id/firstweek"
+        android:textColor="@color/white"/>
 
 
 </RelativeLayout>

@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".TimeAlert">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,7 +21,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Play_3" />
         <activity android:name=".card_5" />
-        <activity android:name=".otsukare_4"></activity>
+        <activity android:name=".otsukare_4" />
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
