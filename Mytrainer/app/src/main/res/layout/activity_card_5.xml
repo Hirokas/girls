@@ -16,28 +16,6 @@
         android:scaleType="centerCrop"
         android:id="@+id/imageView5" />
 
-    <TextView
-        android:text="25分"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/week"
-        android:layout_alignRight="@+id/week"
-        android:layout_alignEnd="@+id/week"
-        android:layout_marginTop="42dp"
-        android:id="@+id/firstweek"
-        android:textColor="@color/white"/>
-
-    <TextView
-        android:text="分"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/secondweek"
-        android:layout_below="@+id/firstweek"
-        android:layout_alignLeft="@+id/firstweek"
-        android:layout_alignStart="@+id/firstweek"
-        android:layout_marginTop="19dp"
-        android:textColor="@color/white"/>
-
 
     <TextView
         android:text="出席カード"
@@ -122,28 +100,6 @@
         android:layout_marginStart="26dp" />
 
     <TextView
-        android:text="分"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/forthweek"
-        android:textColor="@color/white"
-        android:layout_alignTop="@+id/thirdweek"
-        android:layout_alignLeft="@+id/thirdweek"
-        android:layout_alignStart="@+id/thirdweek"
-        android:layout_marginTop="44dp" />
-
-    <TextView
-        android:text="分"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/fifthweek"
-        android:textColor="@color/white"
-        android:layout_marginTop="18dp"
-        android:layout_below="@+id/forthweek"
-        android:layout_alignLeft="@+id/forthweek"
-        android:layout_alignStart="@+id/forthweek" />
-
-    <TextView
         android:text="月"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -168,17 +124,6 @@
         android:layout_alignBottom="@+id/mon"
         android:layout_toRightOf="@+id/mon"
         android:layout_toEndOf="@+id/mon" />
-
-    <TextView
-        android:text="分"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/thirdweek"
-        android:textColor="@color/white"
-        android:layout_marginTop="28dp"
-        android:layout_below="@+id/secondweek"
-        android:layout_alignLeft="@+id/secondweek"
-        android:layout_alignStart="@+id/secondweek" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -211,6 +156,60 @@
         android:layout_alignRight="@+id/firstweek"
         android:layout_alignEnd="@+id/firstweek"
         android:textColor="@color/white"/>
+
+    <TextView
+        android:text="0分"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/thirdweek"
+        android:textColor="@color/white"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/secondweek"
+        android:layout_alignLeft="@+id/secondweek"
+        android:layout_alignStart="@+id/secondweek" />
+
+    <TextView
+        android:text="0分"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/forthweek"
+        android:textColor="@color/white"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/thirdweek"
+        android:layout_alignLeft="@+id/thirdweek"
+        android:layout_alignStart="@+id/thirdweek" />
+
+    <TextView
+        android:text="0分"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fifthweek"
+        android:textColor="@color/white"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/forthweek"
+        android:layout_alignLeft="@+id/forthweek"
+        android:layout_alignStart="@+id/forthweek" />
+
+    <TextView
+        android:text="25分"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstweek"
+        android:textColor="@color/white"
+        android:layout_alignTop="@+id/specialstar"
+        android:layout_alignRight="@+id/week"
+        android:layout_alignEnd="@+id/week"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:text="0分"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/secondweek"
+        android:textColor="@color/white"
+        android:layout_below="@+id/specialstar"
+        android:layout_alignRight="@+id/firstweek"
+        android:layout_alignEnd="@+id/firstweek" />
 
 
 </RelativeLayout>
