@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_otsukare_4"
     android:layout_width="match_parent"
@@ -8,19 +9,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.haruka.mytrainer.otsukare_4">
-
-    <Button
-        android:text="Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="48dp"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="26dp"
-        android:id="@+id/tolog" />
+    tools:context="com.example.haruka.mytrainer.otsukare_4"
+    android:background="@drawable/androidapp04">
 
     <TextView
         android:text="おつかれさまでした"
@@ -29,5 +19,41 @@
         android:layout_above="@+id/tolog"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="179dp"
-        android:id="@+id/textView5" />
+        android:id="@+id/textView5"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="135px"
+        android:layout_height="135px"
+        android:layout_marginRight="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="36dp"
+        android:id="@+id/tolog"
+        android:background="@drawable/log"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="12月4日のトレーニング"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="97dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/title"
+        android:id="@+id/imageView6"
+        android:layout_marginBottom="75dp"
+
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:adjustViewBounds="false" />
 </RelativeLayout>

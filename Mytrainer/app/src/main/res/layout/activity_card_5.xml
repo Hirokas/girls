@@ -17,29 +17,6 @@
         android:id="@+id/imageView5" />
 
     <TextView
-        android:text="出席カード"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="115dp"
-        android:layout_marginStart="115dp"
-        android:layout_marginTop="35dp"
-        android:id="@+id/card" />
-
-    <TextView
-        android:text="一週間"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/sun"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="10dp"
-        android:layout_marginEnd="10dp"
-        android:id="@+id/week" />
-
-    <TextView
         android:text="分"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -47,47 +24,8 @@
         android:layout_alignRight="@+id/week"
         android:layout_alignEnd="@+id/week"
         android:layout_marginTop="42dp"
-        android:id="@+id/firstweek" />
-
-    <TextView
-        android:text="分"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/sixthweek"
-        android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/fifthweek"
-        android:layout_alignStart="@+id/fifthweek"
-        android:layout_marginBottom="74dp" />
-
-    <TextView
-        android:text="分"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/fifthweek"
-        android:layout_above="@+id/sixthweek"
-        android:layout_alignLeft="@+id/forthweek"
-        android:layout_alignStart="@+id/forthweek"
-        android:layout_marginBottom="33dp" />
-
-    <TextView
-        android:text="分"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/forthweek"
-        android:layout_above="@+id/fifthweek"
-        android:layout_alignLeft="@+id/thirdweek"
-        android:layout_alignStart="@+id/thirdweek"
-        android:layout_marginBottom="17dp" />
-
-    <TextView
-        android:text="分"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/thirdweek"
-        android:layout_above="@+id/forthweek"
-        android:layout_alignLeft="@+id/firstweek"
-        android:layout_alignStart="@+id/firstweek"
-        android:layout_marginBottom="43dp" />
+        android:id="@+id/firstweek"
+        android:textColor="@color/white"/>
 
     <TextView
         android:text="分"
@@ -97,122 +35,162 @@
         android:layout_below="@+id/firstweek"
         android:layout_alignLeft="@+id/firstweek"
         android:layout_alignStart="@+id/firstweek"
-        android:layout_marginTop="19dp" />
+        android:layout_marginTop="19dp"
+        android:textColor="@color/white"/>
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/hanamaru2"
-        android:id="@+id/specialstar"
-        android:layout_alignTop="@+id/firstweek"
-        android:layout_alignLeft="@+id/sun"
-        android:layout_alignStart="@+id/sun" />
 
     <TextView
-        android:text="月"
+        android:text="出席カード"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="29dp"
-        android:layout_marginStart="29dp"
-        android:layout_marginTop="50dp"
-        android:id="@+id/mon"
-        android:layout_below="@+id/card"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:text="火"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="22dp"
-        android:layout_marginStart="22dp"
-        android:id="@+id/tue"
-        android:layout_alignBaseline="@+id/mon"
-        android:layout_alignBottom="@+id/mon"
-        android:layout_toRightOf="@+id/mon"
-        android:layout_toEndOf="@+id/mon" />
+        android:layout_marginTop="85dp"
+        android:id="@+id/card"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"/>
 
     <TextView
         android:text="水"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/wed"
+        android:textColor="@color/white"
         android:layout_alignBaseline="@+id/tue"
         android:layout_alignBottom="@+id/tue"
-        android:layout_toLeftOf="@+id/imageView4"
-        android:layout_toStartOf="@+id/imageView4" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/fri"
-        android:text="金"
-        android:layout_alignBaseline="@+id/thu"
-        android:layout_alignBottom="@+id/thu"
-        android:layout_toLeftOf="@+id/sat"
-        android:layout_toStartOf="@+id/sat" />
-
-    <TextView
-        android:text="土"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="27dp"
-        android:layout_marginStart="27dp"
-        android:id="@+id/sat"
-        android:layout_alignBaseline="@+id/fri"
-        android:layout_alignBottom="@+id/fri"
-        android:layout_toRightOf="@+id/card"
-        android:layout_toEndOf="@+id/card" />
-
-    <TextView
-        android:text="日"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="26dp"
-        android:layout_marginStart="26dp"
-        android:id="@+id/sun"
-        android:layout_alignBaseline="@+id/sat"
-        android:layout_alignBottom="@+id/sat"
-        android:layout_toRightOf="@+id/sat"
-        android:layout_toEndOf="@+id/sat" />
-
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/btn_star_big_on"
-        android:id="@+id/specialstar"
-        android:layout_below="@+id/secondweek"
-        android:layout_alignRight="@+id/sun"
-        android:layout_alignEnd="@+id/sun"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/wed"
-        android:layout_toEndOf="@+id/wed" />
-
-    <TextView
-        android:text="月"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="25dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="121dp"
-        android:id="@+id/mon"
-        android:layout_below="@+id/card"
-        android:layout_toRightOf="@+id/wed"
-        android:layout_toEndOf="@+id/wed"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignLeft="@+id/card"
+        android:layout_alignStart="@+id/card" />
 
     <TextView
         android:text="木"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/thu"
+        android:textColor="@color/white"
         android:layout_alignBaseline="@+id/wed"
         android:layout_alignBottom="@+id/wed"
         android:layout_toRightOf="@+id/wed"
-        android:layout_toEndOf="@+id/wed" />
+        android:layout_toEndOf="@+id/wed"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fri"
+        android:text="金"
+        android:textColor="@color/white"
+        android:layout_alignBaseline="@+id/thu"
+        android:layout_alignBottom="@+id/thu"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="土"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sat"
+        android:textColor="@color/white"
+        android:layout_alignBaseline="@+id/sun"
+        android:layout_alignBottom="@+id/sun"
+        android:layout_toLeftOf="@+id/sun"
+        android:layout_toStartOf="@+id/sun"
+        android:layout_marginRight="17dp"
+        android:layout_marginEnd="17dp" />
+
+    <TextView
+        android:text="日"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sun"
+        android:textColor="@color/white"
+        android:layout_alignBaseline="@+id/fri"
+        android:layout_alignBottom="@+id/fri"
+        android:layout_alignRight="@+id/card"
+        android:layout_alignEnd="@+id/card" />
+
+    <TextView
+        android:text="一週間"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/week"
+        android:textColor="@color/white"
+        android:layout_alignBaseline="@+id/sun"
+        android:layout_alignBottom="@+id/sun"
+        android:layout_toRightOf="@+id/sun"
+        android:layout_toEndOf="@+id/sun"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp" />
+
+    <TextView
+        android:text="分"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/forthweek"
+        android:textColor="@color/white"
+        android:layout_alignTop="@+id/thirdweek"
+        android:layout_alignLeft="@+id/thirdweek"
+        android:layout_alignStart="@+id/thirdweek"
+        android:layout_marginTop="44dp" />
+
+    <TextView
+        android:text="分"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fifthweek"
+        android:textColor="@color/white"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/forthweek"
+        android:layout_alignLeft="@+id/forthweek"
+        android:layout_alignStart="@+id/forthweek" />
+
+    <TextView
+        android:text="月"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        android:id="@+id/mon"
+        android:textColor="@color/white"
+        android:layout_below="@+id/card"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="41dp"
+        android:layout_marginStart="41dp" />
+
+    <TextView
+        android:text="火"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tue"
+        android:textColor="@color/white"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_alignBaseline="@+id/mon"
+        android:layout_alignBottom="@+id/mon"
+        android:layout_toRightOf="@+id/mon"
+        android:layout_toEndOf="@+id/mon" />
+
+    <TextView
+        android:text="分"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/thirdweek"
+        android:textColor="@color/white"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/secondweek"
+        android:layout_alignLeft="@+id/secondweek"
+        android:layout_alignStart="@+id/secondweek" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/hanamaru2"
+        android:id="@+id/specialstar"
+        android:layout_below="@+id/sun"
+        android:layout_toLeftOf="@+id/firstweek"
+        android:layout_toStartOf="@+id/firstweek"
+        android:layout_marginRight="19dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginTop="17dp" />
 
 
 </RelativeLayout>
